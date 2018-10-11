@@ -1,0 +1,59 @@
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.navigation {
+    background-color: $color-header;
+    height: 10rem;
+    transition: box-shadow .2s;
+}
+
+.navigation-menu {
+    background-color: $color-white;
+    transition: box-shadow .2s;
+}
+
+.shadow {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3rem; 
+    padding: 0 1rem;
+    margin-top: 4rem;
+}
+
+.logo-text {
+    color: $color-white;
+    font-family: $font-primary;
+    font-size: 2.4rem;
+    margin-left: 2rem;
+}
+
+ul.menu {
+    list-style-type: none;
+    float: right;
+    margin-right: 3rem;
+    margin-top: 4.5rem;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+.menu-item a {
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: $font-primary;
+}

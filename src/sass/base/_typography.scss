@@ -1,0 +1,48 @@
+.text-overlay {
+    width: 100%;
+    text-align: center;
+    @include absCenter;
+}
+
+.header-gold {
+    color: $color-gold;
+    font-family: $font-primary;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.vertical {
+    border-top: 2px solid $color-gold;
+    width: 3rem;
+    @include absCenter;
+}
+
+.vertical-white {
+    border-top: 2px solid $color-white;
+    width: 3rem;
+    @include absCenter;
+}
+
+.header-black {
+    color: $color-header;
+    font-family: $font-primary;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.text-black {
+    color: $color-text-secondary;
+    font-family: $font-secondary;
+    font-size: 1.6rem;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+}

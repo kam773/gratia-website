@@ -1,0 +1,50 @@
+/* Color variables */
+$color-white: #fff;
+$color-black: #000;
+$color-text-primary: #1e2536;
+$color-header: #151b28;
+$color-text-secondary: #8b909d;
+$color-gold: #d89b64;
+$color-section-header: #151b28;
+$color-line: #8a8f9c;
+$color-btn-border: #263045;
+$color-btn-hover: #030303;
+$color-shadow: #e5e6eb;
+$color-box-light: #f8f8f8;
+$color-box-dark: #151b28;
+$color-border: #aaaaaa;
+
+/* Font variables */
+$font-primary: 'Montserrat';
+$font-secondary: 'Crimson Text';
+
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+    @include respond(tab-land) {
+        font-size: 56.25%;   // 1rem = 9px
+    }
+
+    @include respond(tab-port) {
+        font-size: 50%; // 1rem = 8px
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%;   // 1rem  = 12px
+    }
+
+}
+
+body {
+    box-sizing: border-box;
+}

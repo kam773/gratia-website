@@ -1,0 +1,72 @@
+.book-btn a {
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    border: 1px solid $color-btn-border;
+    text-transform: uppercase;
+    color: $color-gold;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $color-btn-hover;
+    }
+}
+
+.book-btn {
+    float: right;
+    margin-right: 3rem;
+}
+
+.cta a {
+    color: $color-gold;
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 8.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.58px;
+    text-decoration: none;
+    border-bottom: 1px solid $color-gold;
+    padding-bottom: 1rem;
+}
+
+.cta-2 a {
+    color: $color-gold;
+    font-family: $font-primary;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 8.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.58px;
+    text-decoration: none;
+    border: 1px solid rgba(21, 27, 40, 0.15);
+    padding: 1rem 2rem;
+}
+.cta {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.cta-2 {
+    text-align: center;
+    margin: 0;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    color: $color-white;
+    margin: 0 auto;
+    box-shadow: 0 0 9rem $color-shadow;
+    background-color: $color-gold;
+    width: 100%;
+}
+
+.btn a {
+    text-decoration: none;
+    color: $color-white;
+    padding: 2rem 40rem;
+}
+

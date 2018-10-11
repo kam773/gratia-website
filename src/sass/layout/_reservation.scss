@@ -1,0 +1,25 @@
+.day input,
+.month input,
+.hour input,
+.year input,
+.no-people input,
+.name input,
+.phone input,
+.email input, 
+.text-box input,
+button .btn  {
+    width: 100%;
+    box-shadow: 0 0 9rem $color-shadow;
+    background-color: $color-white;
+    height: 100%;
+}
+
+.prepare-menu select {
+    width: 100%;
+    box-shadow: 0 0 9rem #e5e6eb;
+    background-color: #151b28;
+    color: $color-gold;
+    height: 100%;
+    font-weight: 700;
+    
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gratia",
+  "version": "1.0.0",
+  "description": "gratia website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Kamil Smas",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "eslint": "^5.6.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1",
+    "node-sass": "^4.9.3"
+  }
+}
