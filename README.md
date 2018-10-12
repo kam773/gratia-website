@@ -1,5 +1,5 @@
 # gratia-website
-PSD to HTML template
+Mulit-page PSD to HTML template
 
 # Demo
 
