@@ -25,9 +25,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: $color-white;
-    background-image: url(../../img/logo-footer.png);
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+.footer-logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer-header {

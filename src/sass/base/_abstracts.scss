@@ -1,12 +1,15 @@
 .details {
     width: 100%;
     height: 50rem;
-    background-image: url(../../img/bg-small-image.png);
+    position: relative;
+}
+
+.details img {
+    width: 100%;
+    height: 50rem;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-
 }
 
 .box {

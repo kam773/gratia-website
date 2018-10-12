@@ -1,10 +1,11 @@
+/* Base settings and helper classes */
 @import "base/mixins";
 @import "base/base";
 @import "base/abstracts";
 @import "base/animations";
 @import "base/typography";
 
-
+/* Layout modules such as header and footer */
 @import "layout/header";
 @import "layout/navigation";
 @import "layout/flexbox";
@@ -13,8 +14,7 @@
 @import "layout/grid";
 @import "layout/reservation";
 
-
-
+/* Components Re-usable site elements */
 @import "components/button";
 @import "components/lists";
 

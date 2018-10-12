@@ -10,10 +10,18 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.0",
+    "del": "^3.0.0",
     "eslint": "^5.6.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1",
-    "node-sass": "^4.9.3"
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.9.3",
+    "run-sequence": "^2.2.1"
   }
 }

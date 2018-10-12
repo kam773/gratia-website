@@ -1,3 +1,4 @@
+/* Base settings and helper classes */
 /* Media query manager
 
 0 - 600px: Phone
@@ -38,11 +39,14 @@ body {
 .details {
   width: 100%;
   height: 50rem;
-  background-image: url(../../img/bg-small-image.png);
+  position: relative; }
+
+.details img {
+  width: 100%;
+  height: 50rem;
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
-  position: relative; }
+  background-repeat: no-repeat; }
 
 .box {
   width: 50rem;
@@ -265,6 +269,7 @@ textarea::placeholder {
   line-height: 1.5;
   text-align: center; }
 
+/* Layout modules such as header and footer */
 .header {
   background-color: #151b28;
   width: 100%;
@@ -474,13 +479,13 @@ nav {
   font-size: 2.4rem;
   margin-left: 2rem; }
 
-ul {
+ul.menu {
   width: 100%; }
 
-ul li {
+ul.menu li {
   list-style-type: none;
   display: inline-block;
-  padding: 5rem 0;
+  padding-top: 5rem;
   margin: 0 3rem; }
 
 .menu-list {
@@ -724,10 +729,15 @@ ul li {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: #fff;
-  background-image: url(../../img/logo-footer.png);
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-color: #fff; }
+
+.footer-logo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
 
 .footer-header {
   color: #151b28;
@@ -1033,6 +1043,7 @@ button .btn {
   height: 100%;
   font-weight: 700; }
 
+/* Components Re-usable site elements */
 .book-btn a {
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -1127,7 +1138,7 @@ button .btn {
 ul {
   list-style-type: none; }
 
-ul li {
+ul .social-icon {
   display: inline-block; }
 
 .social-icon {
