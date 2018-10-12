@@ -4,6 +4,15 @@
     height: 35rem;
     border-top: 1px solid $color-border;
     position: relative;
+
+    @include respond(tab-port) {
+        height: 30rem;
+    }
+
+    @include respond(phone) {
+        height: 25rem;
+        margin-top: 20rem;
+    }
 }
 
 .footer-logo {
