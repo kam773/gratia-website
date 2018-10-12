@@ -2,4 +2,4 @@
 PSD to HTML template
 
 # Demo
-https://kam773.github.io/gratia-website/src/
+https://kam773.github.io/gratia/src/
