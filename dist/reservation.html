@@ -1,105 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width,initial-scale=1" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet">  
-    <title>Reservation</title>
+        <meta charset="UTF-8">
+        <meta content="width=device-width,initial-scale=1" name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet">
+        <title>Reservation</title>
 </head>
+
 <body>
-        <nav class="navigation-menu">        
-                <div class="logo">
-                    <img alt="Logo" src="img/logo-img.png">
-                    <h1 class="logo-text">Gratia</h1>
+        <nav class="navigation__menu">
+                <div class="navigation__logo">
+                        <img alt="Logo" src="img/logo-img.png">
+                        <h1 class="logo-text">Gratia</h1>
                 </div>
                 <div class="toggle">
                         <a href="#">&#9776;</a>
-                    </div>
-                <div class="menu-list">
+                </div>
+                <div class="navigation__menu">
                         <ul class="menu section-menu">
-                                <li class="menu-item"><a href="index.html">Home</a></li>
-                                <li class="menu-item"><a href="menu.html">Menu</a></li>
-                                <li class="menu-item"><a href="">Gallery</a></li>
-                                <li class="menu-item"><a href="">Contact</a></li>
-                        </ul>  
-                </div>        
+                                <li class="menu__item"><a href="index.html">Home</a></li>
+                                <li class="menu__item"><a href="menu.html">Menu</a></li>
+                                <li class="menu__item"><a href="">Gallery</a></li>
+                                <li class="menu__item"><a href="">Contact</a></li>
+                        </ul>
+                </div>
         </nav>
-    
-        <section class="reservation-content">
+
+        <section class="reservation__content">
                 <div class="text-wrapper-menu">
                         <h1 class="section-header">BOOK A TABLE</h1>
                         <p class="section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <div class="text">
                                 <img alt="Gratia" src="img/gratia-text.png">
                         </div>
-                        
+
                 </div>
                 <form action="post">
                         <div class="reservation-grid">
-                            <div class="day">
-                                <input placeholder="DD" type="text">
-                            </div>
-                            <div class="month">
-                                    <input placeholder="MM" type="text">
-                            </div>
-                            <div class="year">
-                                    <input placeholder="YYYY" type="text">
-                            </div>
-                            <div class="hour">
-                                    <input placeholder="HOUR" type="text">
-                            </div>
-                            <div class="no-people">
-                                    <input placeholder="NUMBER OF PEOPLE" type="text">
-                            </div>
-                            <div class="name">
-                                    <input placeholder="FIRST AND LAST NAME" type="text">
-                            </div>
-                            <div class="phone">
-                                    <input placeholder="PHONE NUMBER" type="text">
-                            </div>
-                            <div class="email">
-                                    <input placeholder="EMAIL" type="text">
-                            </div>
-                            <div class="prepare-menu">
-                                    <select class="custom-select" id="inlineFormCustomSelect">
-                                            <option selected="selected">PREPARE MENU</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                    </select>
-                            </div>
-                            <div class="text-box">
-                                   <textarea id="message" name="message" placeholder="Your message"></textarea>
-                            </div>
-                            <button class="btn" type="submit">
-                                <a href="index.html">SEND</a>
-                            </button>
+                                <div class="day">
+                                        <input placeholder="DD" type="text">
+                                </div>
+                                <div class="month">
+                                        <input placeholder="MM" type="text">
+                                </div>
+                                <div class="year">
+                                        <input placeholder="YYYY" type="text">
+                                </div>
+                                <div class="hour">
+                                        <input placeholder="HOUR" type="text">
+                                </div>
+                                <div class="no-people">
+                                        <input placeholder="NUMBER OF PEOPLE" type="text">
+                                </div>
+                                <div class="name">
+                                        <input placeholder="FIRST AND LAST NAME" type="text">
+                                </div>
+                                <div class="phone">
+                                        <input placeholder="PHONE NUMBER" type="text">
+                                </div>
+                                <div class="email">
+                                        <input placeholder="EMAIL" type="text">
+                                </div>
+                                <div class="prepare-menu">
+                                        <select class="custom-select" id="inlineFormCustomSelect">
+                                                <option selected="selected">PREPARE MENU</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                        </select>
+                                </div>
+                                <div class="text-box">
+                                        <textarea id="message" name="message" placeholder="Your message"></textarea>
+                                </div>
+                                <button class="btn" type="submit">
+                                        <a href="index.html">SEND</a>
+                                </button>
                         </div>
                 </form>
-                
+
 
         </section>
         <footer class="footer">
-                <div class="footer-logo">
-                    <img alt="Logo Footer" src="img/logo-footer.png">
+                <div class="footer__logo">
+                        <img alt="Logo Footer" src="img/logo-footer.png">
                 </div>
                 <div class="text-wrapper">
                         <h3 class="footer-header">Gratia Restaurant</h3>
                         <p class="section-text">Copyright 2016. All rights reserved by symu</p>
                 </div>
-                    <div class="horizontal-line"></div>
+                <div class="horizontal-line"></div>
                 <div class="social-wrapper">
                         <ul>
-                            <li class="social-icon"><a href="#"><img alt="" src="img/facebook-icon.png"></a></li>
-                            <li class="social-icon"><a href="#"><img alt="" src="img/twitter-icon.png"></a></li>
-                            <li class="social-icon"><a href="#"><img alt="" src="img/instagram-icon.png"></a></li>
+                                <li class="social-icon"><a href="#"><img alt="" src="img/facebook-icon.png"></a></li>
+                                <li class="social-icon"><a href="#"><img alt="" src="img/twitter-icon.png"></a></li>
+                                <li class="social-icon"><a href="#"><img alt="" src="img/instagram-icon.png"></a></li>
                         </ul>
                 </div>
-            </footer>
+        </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/scripts.js"></script>
 </body>
+
 </html>
